@@ -55,5 +55,9 @@ function display(){
 
 //////////DOM3//////////
 function add(){
-    
+    var listaPrincipal = document.getElementsByTagName("ul");
+    var elementoExtra = document.createElement("li");
+        listaPrincipal[0].appendChild(elementoExtra);
+    var contenidoExtra = document.createTextNode("Lorem ipsum");
+        elementoExtra.appendChild(contenidoExtra);
 }
